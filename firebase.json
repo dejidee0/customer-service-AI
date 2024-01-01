@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "CS-AI",
+    "public": ".next",  
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -10,6 +10,17 @@
       {
         "source": "**",
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "s-maxage=31536000, stale-while-revalidate=604800"
+          }
+        ]
       }
     ]
   }
