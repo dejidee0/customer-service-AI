@@ -1,4 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/dejidee0/customer-service-AI/assets/107705210/d23556a3-a24e-4235-8c09-2139661efaeb)
+
 
 ## Getting Started
 
